@@ -1,7 +1,6 @@
 name: Python Environment
 
-on:
-  push
+on: [push, workflow_dispatch]
 
 jobs:
   setup:
